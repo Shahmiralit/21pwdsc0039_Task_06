@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    background-color: #444; /* Dark container background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+  }
+  
+  .book-list,
+  .add-book,
+  .search-books {
+    margin: 0 10px;
+    background-color: #555; /* Dark module background color */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #777; /* Darker border color */
+    padding-bottom: 10px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #777; /* Darker border color */
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    display: block;
+    margin-top: 5px;
+    background-color: #444; /* Dark input background color */
+    color: #fff; /* Input text color */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+    background-color: #0056b3;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #003f80; /* Darker hover color */
+  }
+  
